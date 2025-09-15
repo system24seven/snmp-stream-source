@@ -1,0 +1,5 @@
+com/system24seven/ignition/snmpevent/source/gateway/SnmpSource.class
+com/system24seven/ignition/snmpevent/source/gateway/SnmpSource$1.class
+com/system24seven/ignition/snmpevent/source/gateway/EventStreamInstaller.class
+com/system24seven/ignition/snmpevent/source/gateway/SNMPListener.class
+com/system24seven/ignition/snmpevent/source/gateway/SnmpSourceGatewayHook.class

@@ -1,9 +1,9 @@
-# Event Stream Source Example
-This example shows how to add a source to the Ignition Event Stream.  The source takes comma separated values 
-and generates events from them. Values are sent every second and loops back to the beginning after the last value.
+# SNMP Trap Event Stream Source for Ignition 8.3
 
-For instance, if the source is configured with the values `A,B,C`, the source will generate events with the 
-values `A`, `B`, `C`, `A`, `B`, `C` sending `A` at time 0, `B` at time 1, `C` at time 2, `A` at time 3, and so on.
+This is a working implementation of SNMP4J implementing an SNMP Traps listener that converts SNMP Traps into Ignition
+Events for the Event Streams Module.
 
-
-
+Installation and Configuration:
+Install as a normal module on the gateway.
+Open up incoming port UDP:162 (or custom if you change the trap port)
+Configure the Event Listener in the Ignition Event Streams UI in Designer. 
